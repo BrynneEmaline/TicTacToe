@@ -11,7 +11,7 @@ public class Main {
 
         while (true) {
             printBoard(pos);
-            System.out.println("Choose a position (1-9):");
+            System.out.println("Choose a position (1-9): ");
 
             while (true) {
                 while (!scanner.hasNextInt()) {
